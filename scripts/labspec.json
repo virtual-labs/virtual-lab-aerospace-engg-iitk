@@ -27,7 +27,7 @@
                     }, 
                     "department": "", 
                     "institute": "IIT Kanpur", 
-                    "name": "Dr. S. Kamle", 
+                    "name": "Dr. K. Balani", 
                     "organization": "", 
                     "role": "Lab Developer", 
                     "title": "", 
@@ -95,11 +95,11 @@
                 }
             ], 
             "discipline": [
-                "Aerospace Engineering"
+                "Material Science & Engineering"
             ], 
-            "id": " ", 
+            "id": "mse08", 
             "integration_level": 5, 
-            "name": "", 
+            "name": "material lab", 
             "server-side": true, 
             "status": "Released", 
             "type": ""
@@ -113,7 +113,8 @@
                 "lab_actions": {
                     "backup": [], 
                     "clean": [], 
-                    "init": ["cp -r ../build/* /var/www/","mv /var/www/index.html index.html.default"
+                    "init": ["mv /var/www/index.html index.html.default",
+                        "cp -r ../build/* /var/www/"
                         ], 
                     "pause": [], 
                     "publish": [], 
