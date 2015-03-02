@@ -25,9 +25,9 @@
                         "mobile_number": "", 
                         "office_number": ""
                     }, 
-                    "department": "", 
+                    "department": "Aerospace", 
                     "institute": "IIT Kanpur", 
-                    "name": "Dr. K. Balani", 
+                    "name": "Dr. S. Kamle", 
                     "organization": "", 
                     "role": "Lab Developer", 
                     "title": "", 
@@ -95,11 +95,11 @@
                 }
             ], 
             "discipline": [
-                "Material Science & Engineering"
+                "Aerospace Engineering"
             ], 
-            "id": "mse08", 
+            "id": "ase", 
             "integration_level": 5, 
-            "name": "material lab", 
+            "name": "Aerospace lab", 
             "server-side": true, 
             "status": "Released", 
             "type": ""
