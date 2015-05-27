@@ -1,0 +1,11 @@
+#!/bin/bash
+# Restore Script for virtual-lab-aerospace-engg-iitk
+
+# Restore Script restores the backup of the data used by the lab.
+# Since there is no data being used by virtual-lab-aerospace-engg-iitk, 
+# the script does nothing. 
+
+# Usage of the script
+
+# To use restore script, run the command
+# ./scripts/restore
