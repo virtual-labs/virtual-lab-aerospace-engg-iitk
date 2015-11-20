@@ -61,7 +61,7 @@ function AfterCloseAll(){return}
 
 
 
-Menu1=new Array("Main","../vlab.html","",0,35,100);
+Menu1=new Array("Main","../index.html","",0,35,100);
 
 Menu2=new Array("Objective","object.html","",0,35,100);
 
