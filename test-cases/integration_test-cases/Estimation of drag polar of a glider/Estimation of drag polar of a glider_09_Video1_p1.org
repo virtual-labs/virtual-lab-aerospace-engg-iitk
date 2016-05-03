@@ -1,0 +1,40 @@
+* Author: Nihanth
+* Date Created: 02 May 2016
+* Environment
+  - OS: Windows 7, Ubuntu-16.04,Centos-6
+  - Browsers: Firefox-42.0,Chrome-47.0,chromium-45.0
+  - Bandwidth : 100Mbps
+  - Hardware Configuration:8GBRAM , 
+  - Processor:i5
+
+* Objective
+  - To  watch the video1 of  “Estimation of drag polar of a glider” experiment
+
+* Pre conditions
+  - Refer to first test case [[https://github.com/Virtual-Labs/virtual-lab-aerospace-engg-iitk/blob/master/test-cases/integration_test-cases/Estimation of drag polar of a glider/Estimation of drag polar of a glider_01_Usability_smk.org][Estimation of drag polar of a glider_01_Usability_smk.org]]
+
+* Post conditions
+  - Nil
+* Test Steps
+  1. Click on the Gallery link 
+  2. List of videos should be displayed
+  3. Click on the video1 link
+  4. Click on the play button and click on on full screen button
+  5. Click on the pause button and click on the play button
+  6. Click on the mute button and now increase the volume
+  7. Click on the stop button and now click on the play button
+  8. Click on the escape button
+
+* Expected result
+  1. Gallery page should be opened
+  2. Content should be present with no distortions and Junk characters
+  3. When we click on the video1 link, it should redirect to the video1 page
+  4. When we click on the ply button the video should be played and When we click on the full screen button the full screen video should be displayed on the screen
+  5. The video should get paused when we click on the pause button and When we click on the play button the videos should be played
+  6. When we click on the mute button the video sound should be muted and when we increase the volume the sound should get increased
+  7. When we click on the stop button the video should get stopped and when we click on the play button the video should be played
+  8. When we click on the escape button, the full screen mode should exit.
+
+* Review/comments
+
+
