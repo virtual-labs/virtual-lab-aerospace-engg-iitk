@@ -61,7 +61,7 @@ function AfterCloseAll(){return}
 
 
 
-Menu1=new Array("Main","../index.html","",0,35,100);
+Menu1=new Array("Main","../vlab.html","",0,35,100);
 
 Menu2=new Array("Objective","object.html","",0,35,100);
 
@@ -73,8 +73,9 @@ Menu5=new Array("Results & Discussion ","results.html","",0,35,100);
 	
 Menu6=new Array("Appendix","appendix.html","",0,35,100);
 
-Menu7=new Array("Gallery","","",0,35,100);
+Menu7=new Array("Gallery","","",1,35,100);
 	
+Menu7_1=new Array("video1","mov1.htm","",0,30,150);
 
 
 
