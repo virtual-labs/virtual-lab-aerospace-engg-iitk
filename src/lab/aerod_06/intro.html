@@ -1,0 +1,485 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+ <style type="text/css">
+<!--
+table
+ {
+	color: #FF8040;/*themecolour3%0;*/
+	font-family: "trebuchet ms", arial, sans-serif;
+	font-size: 14pt;	
+}
+p 
+{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-right: 0px;
+	}
+blockquote 
+{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	color: #000000;
+	margin-right: 0px;
+}
+ol 
+{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	color: #000000;
+}
+.rightcoltext ul 
+{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	color: #333333;/*themecolour3%0;*/
+	margin-left: 20px;
+	list-style-image: url(images/main_bullet.gif);
+}
+
+.centercoltext ul
+ {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 20px;
+	list-style-image: url(images/main_bullet.gif);
+}
+
+h1 
+{
+	font-weight: bold;
+	color: #333333;/*themecolour3%0;*/
+	font-size: 16px;
+	margin-top: 0px;
+	margin-bottom: 3px;
+}
+h2 
+{
+	font-size: 15px;
+	color: #1088ff;/*themecolour2;*/
+	margin-top: 0px;
+	margin-bottom: 3px;
+}
+body
+ {
+	font-family: "Trebuchet MS", Arial, Sans-serif;
+	font-size: 9px;
+	color: #333333;/*themecolour3%0;*/
+	background-color: #ffffff;/*themecolour3;*/
+}
+.topstrip 
+{
+	background-image: url(images/Wings_topstrip.gif);
+	background-repeat: repeat-x;
+}
+.centercoltext 
+{
+	padding-left: 10px;
+	padding-right: 20px;
+}
+
+.rightcoltext 
+{
+	padding: 10px;
+	background-color: #c8d2d7;/*themecolour1$ 41%,47%;*/
+	padding-left: 10px;
+	padding-right: 10px;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #000000;
+}
+.leftcoltext a:link 
+{
+	color: #666666;
+}
+.leftcoltext a:visited
+ {
+	color: #cccccc;
+}
+.leftcoltext a:hover 
+{
+	color: #1088ff;/*themecolour2;*/
+}
+
+.rightcoltext a:link
+ {
+	color: #666666;/*themecolour3%0;*/
+}
+.rightcoltext a:visited 
+{
+	color: #cccccc;
+}
+.rightcoltext a:hover 
+{
+	color: #1088ff;/*themecolour2;*/
+}
+
+.topstrip {
+	background-image:   url(images/main_topstrip.gif);
+	background-repeat: repeat-x;
+	background-repeat: repeat-x;
+}
+.hnavbg 
+{
+	background-image:   url(images/main_hnav_bg.gif);
+	background-repeat: repeat-x;
+	background-repeat: repeat-x;
+}
+.leftcolbg 
+{
+	background-image:   url(images/main_leftcolumn_bg.gif);
+	background-repeat: repeat-y;
+	background-position: right;
+	background-repeat: repeat-y;
+	background-position: right;
+}
+.panelbg 
+{
+	background-image: url(images/main_panel_bg.gif);
+	background-repeat: repeat-x;
+}
+.leftcoltext
+ {
+	padding-left: 20px;
+	padding-right: 20px;
+	background-image: url(images/main_leftcolumn_bottom2.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+.leftpanel
+ {
+	background-color: #c8d2d7;/*themecolour1$ 41%,47%;*/
+	padding: 10px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #000000;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #000000;
+}
+.xara_albumcell0 
+{
+	font-weight: bold;
+	color: #333333;/*themecolour3%0;*/
+	border: 1px solid #b8b7b7;/*themecolour1;*/
+	padding-top: 1px;
+	padding-right: 1px;
+	padding-bottom: 1px;
+	padding-left: 1px;
+	text-align: center;
+	align: center;
+}
+.xara_albumcell1 
+{
+	color: #000000;/*themecolour1%0;*/
+	font-size: 80%;
+	padding-top: 1px;
+	padding-right: 1px;
+	padding-bottom: 1px;
+	padding-left: 1px;
+	text-align: center;
+	vertical-align : middle;
+	align: center;
+}
+
+.xara_albumcell2 
+{
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	text-align: center;
+	align: center;
+	border: 1px solid #b8b7b7;/*themecolour1;*/
+}
+
+.xara_albumcell3
+ {
+	font-size: 50%;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	text-align: center;
+	align: center;
+
+}
+.topbar 
+{
+	background-color: #9facb4;/*themecolour1;*/
+}
+.centercoltext1 
+{	padding-left: 10px;
+	padding-right: 20px;
+}
+.style1 
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: large;
+	color: #000000;
+}
+.style4 
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: medium;
+	color: #FFFFCC;
+}
+.style33
+ {font-family: Arial, Helvetica, sans-serif; font-weight: bold; font-size: medium; color: #000000; }
+.style5 
+{	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #000000;
+}
+.style6 
+{font-size: 24px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #990000;
+}
+
+-->
+ </style>
+
+  <head>
+    <title>Introduction</title>
+	   
+
+
+  </head>
+<script src="main_files/xaraalbumfuncs.js" ID="Webstyle_Album_Funcs"></script>
+<body leftmargin="0" topmargin="10">
+<script type="text/javascript">
+			function Go(){return}
+			</script>
+  <script type="text/javascript" src="js/exmplmenu_var.js"></script>
+  <script type="text/javascript" src="js/menu_com.js"></script>
+  <noscript>
+Your browser does not support script
+</noscript>
+
+ <table width="712" align="center" cellpadding="0" cellspacing="0">
+  <tr> 
+    <td valign="top" class="topstrip"> <table width="164" cellpadding="0" cellspacing="0">
+        <tr> 
+          <td width="160" valign="top">
+       
+        </tr>
+      </table> <div align="right"></div></td>
+  </tr>
+  <tr valign="top"> 
+    <td colspan="2"> <table width="100%" cellspacing="0" cellpadding="0">
+        
+       
+        <tr> 
+          <td width="3008" colspan="4" valign="top">
+          </td>
+          
+    </table>
+  </td>
+  </tr>
+  
+  <tr valign="top"> 
+   <td height="861" colspan="3">
+    <table width="700" height="501" border="1" align="center" cellpadding="5" bordercolor="#CCCCCC">
+       <tr>
+    <td width="700" height="54" bgcolor="#CCCCCC">
+<p align="center" class="style1"><img src="banner.jpg" width="700" height="150"></p></td>
+  </tr>
+  <tr>
+  
+      
+    <tr>
+        <td bgcolor="#3399FF"><p align="center" class="style6">Measure pressure distribution on a symmetric aerofoil at few angles of attack</p></td>
+    </tr>
+     <tr>
+
+    <td>
+    <table width="99%" border="0" cellpadding="2">   
+       <tr>
+       <td colspan="2">
+      
+  		<div>
+       	<p align="justify"><br><br><br>
+        <span class="style6">INTRODUCTION:</span>
+        <br/></p>
+    </div>
+    </td>
+    </tr>
+    <tr>
+    <td  colspan="2">
+    <div>
+    
+    
+     
+      <p align="justify" class="style5">
+      A big part of 
+      aerodynamics problems deal with characterization of fluid flow around various kinds of bodies and we know fluid flow can be completely defined by pressure,temperature,
+      density and velocity.
+      Moreover density and velocity cannot be measured directly and are calculated indirectly through pressure measurements.Thus pressure and temperature are
+      two variables which completely characterize the fluid flow.Since this experiment deals with subsonic flow hence temperature becomes
+      constant and pressure is the only parameter which is most important.In this experiment a study of flow around a symmetric airfoil wing done by measuring pressure
+      on its surface and then pressure coefficient and lift coefficient is calculated and plotted.
+      
+      <br/>   
+      
+      Experimental setup consist of a low speed tunnel,a symmetric airfoil wing with 32 pressure measuring fixed on its surface,manometer to measure 
+      pressure and another manometer which measures pressure head of free stream thus gives free stream velocity.Airfoil is chosen to be equal to width of tunnel so that
+      wing can be treated to be of infinite length and flow could be roughly treated as two dimensional.
+      
+      
+                
+       <br/>        
+       </p>
+       
+       <p align="justify"><br>
+        <span class="style6"><u>Pressure measuring devices:</u></span>
+        <br/></p>
+        
+         <p align="justify" class="style5">
+         The pressure measuring devices are meant for measuring pressure in fluid flow can be broadly divided into: </p>
+         <ol>
+         <li>Manometers</li>
+         <li>Pressure Transducer</li>
+         </ol>
+         
+       <p align="justify"><br>
+        <span class="style6"><u>Manometer</u></span>
+        <br/></p>
+        
+         <p align="justify" class="style5">
+         A Manometer is  a device to measure pressures.A common simple manometer consists of a U shaped tube of glass filled with some liquid.Typically the liquid is mercury because
+         of its high density.There are various types of manometers used for measurement depending upon range of pressures to be measured and the degree of precession required.Some of the popular types of manometer are U-tube manometers,multitube manometers,and Bertz-type manometers.
+         
+         <br/>
+          <br/>
+         </p>
+           </div>
+    </td>
+    </tr>
+         
+         <tr>
+ 			<td colspan="2" align="center" width="85" class="style34">
+              <center><img width="600" height="400" src="manometer.png"></center></td>
+          
+          
+       
+          
+      </tr>
+          
+    <tr>
+    <td>
+    <div>
+          <p align="justify"><br>
+        <span class="style6">Principle of Manometer</span>
+        <br/></p>
+        <p align="justify" class="style5">
+        The basic measuring principle of the liquid manometer is that the pressure applied is balance by the weight of a liquid column.The sensitivity of the instrument depends on the density
+        of manometric fluid used.Some of the commonly used manometric liquids are water,alcohol and mercury.
+        <br/>
+        Since pressure in manometer is measured with respect to some reference pressure and the most common reference pressure is atmospheric pressure.
+        <br/>
+        
+        </p>
+       
+         
+     
+   
+        
+        <p align="justify"><br>
+        <span class="style6"><u>Twin Air or 5-D Tunnel</u></span>
+        <br/></p>
+        <p align="justify" class="style5">
+        This tunnel is closed circuit type with two test sections:one is 3-D and other is 2-D.This powered by two 15 H.P fans and has variable speed control.The 2-D side of the tunnel has a contraction
+        ratio of 12:1 and a 60" long working section with a cross section of 12" X 48".Maximum speed in this side is about 40 m/sec.On the 3-D side,the tunnel has a contraction of 11:1 and a working section of 24" X 36".Maximum
+        speed in this side is about 30m/sec.
+        <br/><br/>
+        </p>
+          
+     <p align="justify"><br>
+        <span class="style6"><u>Pressure Coefficient</u></span>
+        <br/></p>
+     <p align="justify" class="style5">
+        The pressure coefficient is a dimensionless number which describes the relative pressures throughout a flow field in fluid dynamics.The pressure coefficient is used in aerodynamics
+        and hydrodynamics.Every point in a fluid flow field has its own unique pressure coefficient,C<sub>p</sub>.
+        
+        <br/>
+        The pressure coefficient is very useful parameter for studying the flow of incompressible fluids such as water,and also the low speed
+        flow of compressible fluids such as air.The relationship between the dimensionless coefficient and dimensional numbers is:</p>
+        <br/><br/>
+        <center>C<sub>p</sub>=p-p<sub>&infin;</sub>/1/2&rho;<sub>&infin;</sub>V<sup>2</sup><sub>&infin;</sub></center>
+        <br/>
+      <p align="justify" class="style5">  Where,
+        <br/><br/>
+        p is the pressure at the point for which pressure coefficient is being evaluated<br/>
+        p<sub>&infin;</sub> is the pressure in the free stream(i.e remote from any distrubance)
+        <br/>
+        &rho;<sub>&infin;</sub> is the free stream fluid density<br/>
+        V<sub>&infin;</sub> is the free stream velocity of the fluid,or the velocity of the body through the fluid.<br/>
+     </p>
+        
+        
+        <p align="justify"><br>
+        <span class="style6"><u>Lift Coefficient</u></span>
+        <br/></p>
+        <p align="justify" class="style5">
+        The lift coefficient is a dimensionless coefficient that relates the lift generated by an aerodynamic body such as a wing or complete aircraft,the dynamic pressure of the fluid flow around the body,and a reference
+        area associated with the body.
+        <br/>
+        Lift coefficient may be used to relate the total lift generated by an aircraft to the total area of the wing of the aircraft.In this application it is called the<b>aircraft</b> or<b> platform lift coefficient C<sub>L</sub></b>
+        <br/>
+        The lift coefficient C<sub>L </sub>is equal to<br/><br/></p>
+       <center> C<sub>L</sub>=L/1/2 &rho; &upsilon;<sup>2</sup>A = 2L/&rho; &upsilon;<sup>2</sup>A = L/qA </center>
+        <br/>
+     <p align="justify" class="style5">   Where,<br/><br/>
+        L is the lift force,<br/>
+        &rho; is the fluid density<br/>
+        &upsilon; is the true airspeed<br/>
+        q is dynamic pressure,and<br/>
+        A is planform area.<br/>
+        The lift coefficient is dimensionless number.
+        <br/>
+        Lift coefficient may also be used as a characteristic of a particular shape(or cross-section)of an airfoil.In this application it is called the section lift coefficient C<sub>L</sub>.It is common to show,for a particular airfoil section,the relationship between section lift coefficient and angle of attack.Theoretical lift coefficient 
+        and angle of attack relation represented by following graph.<br/>
+        </p>
+       
+        
+    </div>
+    </td>
+    </tr>
+    
+   
+     
+    
+      <tr>
+        <td colspan="2">
+        
+       
+        </td>
+        </tr>
+      
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+
+</body>
+<script ID="Webstyle_Template_Init">
+xara_templatesetup(2, 8);
+</script>
+
+<script ID="Webstyle_Album_Script">
+xara_albumsetup("main_files/Photos/", "Sample Album", "main_files/");
+xara_albumcreate(3, 3, -1);
+xara_pic("default.jpg", "Default picture", "Your photos here.");
+
+
+
+
+xara_albumfill(base);
+</script>
+
+</html>

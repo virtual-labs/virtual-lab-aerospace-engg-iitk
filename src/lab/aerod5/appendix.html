@@ -1,0 +1,407 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+
+<style type="text/css">
+<!--
+table 
+{
+	color: #FF8040;/*themecolour3%0;*/
+	font-family: "trebuchet ms", arial, sans-serif;
+	font-size: 14pt;	
+}
+p 
+{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-right: 0px;
+	}
+blockquote
+ {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	color: #000000;
+	margin-right: 0px;
+}
+ol 
+{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	color: #000000;
+}
+.rightcoltext ul 
+{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	color: #333333;/*themecolour3%0;*/
+	margin-left: 20px;
+	list-style-image: url(images/main_bullet.gif);
+}
+
+.centercoltext ul 
+{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 20px;
+	list-style-image: url(images/main_bullet.gif);
+}
+
+h1
+ {
+	font-weight: bold;
+	color: #333333;/*themecolour3%0;*/
+	font-size: 16px;
+	margin-top: 0px;
+	margin-bottom: 3px;
+}
+h2
+ {
+	font-size: 15px;
+	color: #1088ff;/*themecolour2;*/
+	margin-top: 0px;
+	margin-bottom: 3px;
+}
+body {
+	font-family: "Trebuchet MS", Arial, Sans-serif;
+	font-size: 9px;
+	color: #333333;/*themecolour3%0;*/
+	background-color: #ffffff;/*themecolour3;*/
+}
+.topstrip
+ {
+	background-image: url(images/Wings_topstrip.gif);
+	background-repeat: repeat-x;
+}
+.centercoltext {
+	padding-left: 10px;
+	padding-right: 20px;
+}
+
+.rightcoltext 
+{
+	padding: 10px;
+	background-color: #c8d2d7;/*themecolour1$ 41%,47%;*/
+	padding-left: 10px;
+	padding-right: 10px;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #000000;
+}
+.leftcoltext a:link 
+{
+	color: #666666;
+}
+.leftcoltext a:visited 
+{
+	color: #cccccc;
+}
+.leftcoltext a:hover
+ {
+	color: #1088ff;/*themecolour2;*/
+}
+
+.rightcoltext a:link
+ {
+	color: #666666;/*themecolour3%0;*/
+}
+.rightcoltext a:visited 
+{
+	color: #cccccc;
+}
+.rightcoltext a:hover 
+{
+	color: #1088ff;/*themecolour2;*/
+}
+
+.topstrip 
+{
+	background-image:   url(images/main_topstrip.gif);
+	background-repeat: repeat-x;
+	background-repeat: repeat-x;
+}
+.hnavbg 
+{
+	background-image:   url(images/main_hnav_bg.gif);
+	background-repeat: repeat-x;
+	background-repeat: repeat-x;
+}
+.leftcolbg
+ {
+	background-image:   url(images/main_leftcolumn_bg.gif);
+	background-repeat: repeat-y;
+	background-position: right;
+	background-repeat: repeat-y;
+	background-position: right;
+}
+.panelbg 
+{
+	background-image: url(images/main_panel_bg.gif);
+	background-repeat: repeat-x;
+}
+.leftcoltext 
+{
+	padding-left: 20px;
+	padding-right: 20px;
+	background-image: url(images/main_leftcolumn_bottom2.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+.leftpanel 
+{
+	background-color: #c8d2d7;/*themecolour1$ 41%,47%;*/
+	padding: 10px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #000000;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #000000;
+}
+.xara_albumcell0 
+{
+	font-weight: bold;
+	color: #333333;/*themecolour3%0;*/
+	border: 1px solid #b8b7b7;/*themecolour1;*/
+	padding-top: 1px;
+	padding-right: 1px;
+	padding-bottom: 1px;
+	padding-left: 1px;
+	text-align: center;
+	align: center;
+}
+.xara_albumcell1 
+{
+	color: #000000;/*themecolour1%0;*/
+	font-size: 80%;
+	padding-top: 1px;
+	padding-right: 1px;
+	padding-bottom: 1px;
+	padding-left: 1px;
+	text-align: center;
+	vertical-align : middle;
+	align: center;
+}
+
+.xara_albumcell2
+ {
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	text-align: center;
+	align: center;
+	border: 1px solid #b8b7b7;/*themecolour1;*/
+}
+
+.xara_albumcell3 
+{
+	font-size: 50%;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	text-align: center;
+	align: center;
+
+}
+.topbar
+ {
+	background-color: #9facb4;/*themecolour1;*/
+}
+.centercoltext1 
+{	padding-left: 10px;
+	padding-right: 20px;
+}
+.style1 
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: large;
+	color: #000000;
+}
+.style4 
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: medium;
+	color: #FFFFCC;
+}
+.style13
+ {
+ color: #000000;
+ font-size: 16px;
+ }
+.style6 
+	{
+	font-size: 24px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #990000;
+}
+.style34 {
+	color: #000000;
+	font-size: 16px;
+	font-weight: bold;
+}
+.style36 {font-size: 16px; color: #000000; 
+}
+
+-->
+</style>
+  <head>
+    <title>Apparatus</title>
+
+<script src="main_files/xaraalbumfuncs.js" ID="Webstyle_Album_Funcs"></script>
+<body leftmargin="0" topmargin="10">
+<script type="text/javascript">
+	function Go(){return}
+			</script>
+  <script type="text/javascript" src="js/exmplmenu_var.js"></script>
+  <script type="text/javascript" src="js/menu_com.js"></script>
+  <noscript>
+Your browser does not support script
+</noscript>
+
+<table width="712" align="center" cellpadding="0" cellspacing="0">
+  <tr> 
+    <td valign="top" class="topstrip"> <table width="164" cellpadding="0" cellspacing="0">
+        <tr> 
+          <td width="160" valign="top">
+       
+        </tr>
+      </table> <div align="right"></div></td>
+  </tr>
+  <tr valign="top"> 
+  
+    <td colspan="2"> <table width="100%" cellspacing="0" cellpadding="0">
+        
+       
+        <tr> 
+          <td width="3008" colspan="4" valign="top">
+          </td>
+          
+    </table>
+  </td>
+  </tr>
+  
+  <tr valign="top"> 
+    <td height="861" colspan="3">
+    <table width="700" height="501" border="1" align="center" cellpadding="5" bordercolor="#CCCCCC">
+       <tr>
+    <td width="700" height="54" bgcolor="#CCCCCC"><p align="center" class="style1"><img src="banner.jpg" width="700" height="150"></p></td>
+  </tr>
+  <tr>
+          
+    <tr>
+       <td bgcolor="#3399FF"><p align="center"  class="style6">Calibration of supersonic nozzle </p></td>
+    </tr>
+    
+    <tr>
+    <td>
+
+ <p align="justify">
+    <br>
+<br>
+<br>
+<br>
+ 
+    </p>
+
+     
+      <tr>
+      <td>
+         <p class="style13">
+              <span class="style6">Questions</span><br/><br/>
+          			
+          </p>
+            
+          <div>
+             <ol>
+             <li>What are the methods for determining the test-section Mach number of a supersonic wind tunnel?
+             <br/><br/>
+              <p class="style13">Ans.The following methods may be employed for finding the test-section Mach number of supersonic wind tunnels:
+              <br/>
+              
+              1. If Mach number is close to speed of sound to 1.6,then by measuring 'P' in test section and 'P<sub>0</sub>' in setting chamber & using P<sub>01</sub>/P=(1+(Y-1)/2 M<sup>2</sup>)<sup>Y/(Y-1)</sup>
+              <br/><br/>
+              2. If M >1.6,we use the pitot pressure in test-section (P<sub>02</sub>) with total head in the settling chamber(P<sub>01</sub>) and normal shock relation.
+              <br/>
+              3.Measurement of static pressure P<sub>1</sub> and pitot pressure P<sub>03</sub> at the testsection axis & using Rayleigh pitot formula.<br/><br/>
+              4.Mach angle M from a Schlieren photograph of clean test section can be used since sin M=1/M<sub>1</sub><br/>
+              </p>
+              
+             </li>
+          
+             <li>What is Mach wave and how it is different from shock waves?
+             <br/>
+             <p class="style13">Ans. Mach wave is pressure wave traveling at the speed of sound caused by a slight change of pressure added to a compressible flow,whereas
+             a shock wave is a kind of propogating disturbance across which there is a rapid change in pressure and temperature unlike a Mach wave.
+              <br/>
+             </p> </li>
+             
+             <li>Explain Simple and non-simple region?<br/> 
+              <p class="style13">Ans. The waves causing isentropic expansion & compression that are straight Mach lines,with constant flow condition and which obey  v<sub>n</sub>
+              =v<sub>n-1</sub>+(Q<sub>n</sub>-Q<sub>n-1</sub>)expansion & v<sub>n</sub>=v<sub>n-1</sub>-|Q<sub>n</sub>-Q<sub>n-1</sub>| compression 
+              are called simple regions.<br/><br/>
+              Non simple regions do not obey these conditions. <br/>
+              </p>
+             </li>
+             
+             <li>Explain isentropic expansion.
+             <br/>
+             <p class="style13">Ans. Any expansion that takes place adiabatically and reversibly is termed isentropic expansion.
+              <br/>
+             </p> </li>
+             
+             
+              <li>Explain why choking should take place only at the throat?
+             <br/>
+             <p class="style13">Ans. The throat of a convergent divergent nozzle has the minimum area upto which flow remains subsonic and downstream
+             of which it becomes supersonic.If choking occurs at any cross section other than minimum area then the geometry doesn't allow the transition to take place.
+             
+              <br/>
+             </p> </li>
+             
+             <li>What do you understand by under and over expansions?
+             <br/>
+             <p class="style13">Ans. Under expansion is a condition of the nozzle delivery pressure to be higher than back pressure while over expansion occurs
+             if nozzle delivery pressure is less than back pressure.
+             
+             
+              <br/>
+             </p> </li>
+              <li>Describe 'adapted nozzle'.Is it superior to over expanded nozzle?If so why?
+             <br/>
+             <p class="style13">Ans.Adapted nozzle is one in which the nozzle delivery pressure is same as back pressure.It is better than over expanded nozzle for tesr purposes but as far 
+             as thrust generation in rocket is concerned under expanded is better.Over expanded nozzle have longer length and thus 
+             greater weight.
+             
+             
+              <br/>
+             </p> </li>
+             
+             </ol></div>
+              </td>
+      
+  </tr>
+</table>
+</td></tr>
+</table>
+
+  </body>
+
+
+<script ID="Webstyle_Template_Init">
+xara_templatesetup(2, 8);
+</script>
+
+<script ID="Webstyle_Album_Script">
+xara_albumsetup("main_files/Photos/", "Sample Album", "main_files/");
+xara_albumcreate(3, 3, -1);
+xara_pic("default.jpg", "Default picture", "Your photos here.");
+
+
+
+
+xara_albumfill(base);
+</script>
+
+</html>
